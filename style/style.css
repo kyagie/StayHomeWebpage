@@ -1,0 +1,24 @@
+/* body{
+
+} */
+h1 {
+    font-size:50px;
+    text-align:center;
+  }
+  
+  #changingword {
+    color:rgb(228, 163, 24);
+  }
+
+  .container{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+  }
+
+
+
+
+
+
+

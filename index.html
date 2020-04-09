@@ -1,0 +1,145 @@
+<!-- <!DOCTYPE html>
+<html lang="en"> -->
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ChangingWorldsChangingHards</title>
+
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Erica+One' rel='stylesheet' type='text/css'>
+
+    <!-- jQuery Libraru -->
+    <script type='text/javascript'
+        src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/ico" href="img/location.png" />
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+
+        </div>
+    </header>
+    <div class="container">
+        <div>
+            <style>
+                .bmc-button img {
+                    height: 34px !important;
+                    width: 35px !important;
+                    margin-bottom: 1px !important;
+                    box-shadow: none !important;
+                    border: none !important;
+                    vertical-align: middle !important;
+                }
+
+                .bmc-button {
+                    padding: 7px 10px 7px 10px !important;
+                    line-height: 35px !important;
+                    height: 51px !important;
+                    min-width: 217px !important;
+                    text-decoration: none !important;
+                    display: inline-flex !important;
+                    color: #000000 !important;
+                    background-color: #FFDD00 !important;
+                    border-radius: 5px !important;
+                    border: 1px solid transparent !important;
+                    padding: 7px 10px 7px 10px !important;
+                    font-size: 22px !important;
+                    letter-spacing: 0.6px !important;
+                    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+                    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+                    margin: 0 auto !important;
+                    font-family: 'Cookie', cursive !important;
+                    -webkit-box-sizing: border-box !important;
+                    box-sizing: border-box !important;
+                    -o-transition: 0.3s all linear !important;
+                    -webkit-transition: 0.3s all linear !important;
+                    -moz-transition: 0.3s all linear !important;
+                    -ms-transition: 0.3s all linear !important;
+                    transition: 0.3s all linear !important;
+                }
+
+                .bmc-button:hover,
+                .bmc-button:active,
+                .bmc-button:focus {
+                    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+                    text-decoration: none !important;
+                    box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+                    opacity: 0.85 !important;
+                    color: #000000 !important;
+                }
+            </style>
+            <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button"
+                target="_blank" href="https://www.buymeacoffee.com/kyagie"><img
+                    src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span
+                    style="margin-left:25px;font-size:28px !important;">Buy me a coffee</span></a>
+        </div>
+        <div class="words">
+            <!-- h1 tag with span ID for changing words -->
+            <h1><span id="changingword">Stay Home!</span></h1>
+            <br>
+            <div>
+                <h1><span id="changingword">in</span></h1><br>
+                <h1><span class="countdowntimer" id="changingNumber">184</span></h1><br>
+                <h1><span id="changingword">Languages Of</span></h1><br>
+                <h1><span id="changingword">Countries Affected By</span></h1><br>
+                <a href="https://kyagie.github.io/covid19.html" target="_blank"><h1><span id="changingword">COVID-19</span></h1></a>
+            </div>
+        </div>
+
+        <div class="share">
+            <h1>Let Us Get To Zero Reported Cases Together!</h1>
+            <h1>Share This Page!</h1>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://kyagie.github.io/" class="fa fa-facebook fa-5x" target="_blank"></a>
+            <a href="https://twitter.com/home?status=https://kyagie.github.io/ Stay Home for others And Save Lives" class="fa fa-twitter fa-5x" target="_blank"></a>
+            <!-- <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://kyagie.github.io/&title=&summary=Stay Home for others And Save Lives&source=" class="fa fa-linkedin fa-5x" target="_blank"></a> -->
+            <a href="mailto:info@example.com?&subject=&body=https://kyagie.github.io/ Stay Home for others And Save Lives" class="fa fa-envelope fa-5x" target="_blank"></a>
+            <a href="whatsapp://send?text=Stay Home!" data-action="share/whatsapp/share" class="fa fa-whatsapp fa-5x" target="_blank"></a>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-text">
+                <p>
+                    "Made by"
+                    <a href="https://kyagie.github.io/"> Arthur Kyagulanyi</a>
+                </p>
+                <p>
+                    "Source Code"
+                    <a href="">StayHome</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function animateValue(id) {
+        var obj = document.getElementById(id);
+        var current = obj.innerHTML;
+
+        setInterval(function () {
+            obj.innerHTML = current--;
+
+        }, 1500);
+    }
+
+    animateValue('changingNumber');
+
+    window.setInterval('refresh()', 276000); 	// Call a function every 10000 milliseconds (OR 10 seconds).
+
+    // Refresh or reload page.
+    function refresh() {
+        window.location.reload();
+    }
+</script>
+
+</html>
