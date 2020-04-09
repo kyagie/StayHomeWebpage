@@ -1,24 +1,79 @@
-/* body{
-
-} */
+/* *{
+  box-sizing: border-box;
+}  */
 h1 {
-    font-size:50px;
-    text-align:center;
-  }
-  
-  #changingword {
-    color:rgb(228, 163, 24);
-  }
+ font-size:50px;
+ padding:12px;
+ text-align:center;
+ color: yellow;
+}
+.coffee{
+  margin-left: 85%;
+}
+.otherwords #changingword{
+  color: rgb(255, 255, 0);
+  position: absolute;
+  margin-left: -230px;
 
-  .container{
-    height: 500px;
-    width: 100%;
-    background-color: black;
-  }
+} 
+
+#changingword {
+color: rgb(255, 255, 0);
+ position: absolute;
+ margin-top:50px;
+ margin-left:100px;
+ font-size: 60px;
+ font-weight: bold;
+}
 
 
+#changingNumber {
+color: rgb(255, 255, 0);
+ position:absolute;
+ margin-top:50px;
+ margin-left:-220px;
+ font-size: 60px;
+ font-weight: bold;
+}
 
+.container{
+ height: 1100px;
+ width: 100%;
+ background-color: black;
+}
 
+.container .words{
+ height:800px;
+ width:70%;
+ background-color:rgb(0, 0, 0);
+ margin-left:150px;
+ position:absolute;
+ margin-top:300px;
+}
 
+.container .footer-text{
+background-color:yellow;
+position:absolute;
+height:auto;
+width:98.5%;
+margin-top:200px;
+margin-top:800px;
+}
+.container .footer-text p{position:relative;margin-left:250px;}
 
+.share{
+ background-color:rgb(0, 0, 0);
+ position:relative;
+ margin-top:1305px;
+ width:100%;
+}
 
+.fa{
+ position:static;
+ margin:30px;
+ padding-left:110px;
+ color:yellow;
+}
+p{
+ font-size:xx-large;
+}
